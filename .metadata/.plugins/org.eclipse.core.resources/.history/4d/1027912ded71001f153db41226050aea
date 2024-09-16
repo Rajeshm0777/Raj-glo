@@ -1,0 +1,33 @@
+package Day1POC;
+
+import io.restassured.RestAssured.*;
+ import io.restassured.matcher.RestAssuredMatchers.*;
+import org.hamcrest.Matchers.*;
+/*
+given()
+content type,set cookies, add auth, add parm, set headrs info etc,
+
+when()
+Get,post,put,patch,delete
+
+then()
+validate status codes,exctract responce,extract header cookies& responce body
+*/
+
+public class HTTPRequest {
+//	@Test
+//	Run/ Debug
+
+	void getUser()
+	{
+		given()
+		
+		when()
+		
+		then()
+		
+		
+		
+	}
+	
+}
